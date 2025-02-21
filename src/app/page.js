@@ -24,25 +24,48 @@ export default function Home() {
     <div className="font-sans">
       {/* SEO Meta Tags */}
       <Head>
-        <title>Phoolwala - Flower Decoration, Car Decor, Wedding & Event Management in Indore</title>
-        <meta
-          name="description"
-          content="Phoolwala offers elegant floral designs for weddings, car decorations, bouquets, garlands, and mandir decor in Indore, Ujjain, Dewas, Sanwer, and Mhao. Transform your special day with our stunning arrangements."
-        />
-        <meta
-          name="keywords"
-          content="flower decoration, car decor, wedding decor, event management, bouquets, garlands, mandir decor, Indore, Ujjain, Dewas, Sanwer, Mhao"
-        />
-        <meta name="author" content="Phoolwala" />
-        <meta property="og:title" content="Phoolwala - Floral Designs for Weddings, Cars, and Events" />
-        <meta
-          property="og:description"
-          content="Explore our elegant floral designs for weddings, car decorations, bouquets, garlands, and mandir decor in Indore, Ujjain, Dewas, Sanwer, and Mhao."
-        />
-        <meta property="og:image" content="/wed3.jpg" />
-        <meta property="og:url" content="https://flowers-three-gamma.vercel.app/" />
-        <link rel="canonical" href="https://flowers-three-gamma.vercel.app/" />
-      </Head>
+      {/* Page Title & Meta Description */}
+      <title>Phoolwala - Flower Decoration, Car Decor, Wedding & Event Management in Indore</title>
+      <meta
+        name="description"
+        content="Phoolwala provides premium flower decoration services for weddings, car decor, event planning, garlands, bouquets, and mandir decorations across Indore, Ujjain, Dewas, Sanwer, and Mhow."
+      />
+      
+      {/* SEO Keywords (Expanded) */}
+      <meta
+        name="keywords"
+        content="flower decoration, wedding decoration, event decor, car floral decoration, birthday decor, anniversary decor, mandap decoration, floral garlands, bouquet delivery, luxury floral services, Indore flower decor, Ujjain wedding flowers, Dewas event planners, Sanwer decorations, Mhow car decor, home floral decor, corporate event flowers, Indian wedding flowers, reception decoration, engagement decor"
+      />
+
+      {/* Author & Robots Meta Tags */}
+      <meta name="author" content="Phoolwala" />
+      <meta name="robots" content="index, follow" />
+
+      {/* Viewport for Mobile Responsiveness */}
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      {/* Open Graph (OG) Meta Tags for Social Media */}
+      <meta property="og:title" content="Phoolwala - Floral Designs for Weddings, Cars, and Events" />
+      <meta
+        property="og:description"
+        content="Explore our elegant floral designs for weddings, car decorations, bouquets, garlands, and mandir decor in Indore, Ujjain, Dewas, Sanwer, and Mhow."
+      />
+      <meta property="og:image" content="/p12.jpg" />
+      <meta property="og:url" content="https://flowers-three-gamma.vercel.app/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Phoolwala" />
+      <meta property="og:locale" content="en_IN" />
+
+      {/* Twitter Card Meta Tags for Social Media Sharing */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Phoolwala - Elegant Flower Decoration & Wedding Services" />
+      <meta name="twitter:description" content="Transform your events with stunning floral arrangements, wedding decor, car decorations, and bouquets in Indore, Ujjain, Dewas, Sanwer, and Mhow." />
+      <meta name="twitter:image" content="/p12.jpg" />
+      <meta name="twitter:site" content="@phoolwala" />
+
+      {/* Canonical URL */}
+      <link rel="canonical" href="https://flowers-three-gamma.vercel.app/" />
+    </Head>
 
       {/* Hero Section */}
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">

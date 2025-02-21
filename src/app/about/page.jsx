@@ -11,19 +11,49 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* SEO Meta Tags */}
-      <Head>
-        <title>About Us | Floral Decoration & Wedding Services</title>
-        <meta
-          name="description"
-          content="Discover premium floral decoration services for weddings, events, car décor, garlands, and mandir decoration in Indore, Ujjain, Dewas, Sanwer, and Mhow."
-        />
-        <meta
-          name="keywords"
-          content="flower decoration, wedding décor, car decoration, bouquet, garland, mandir decoration, event management, Indore, Ujjain, Dewas, Sanwer, Mhow"
-        />
-      </Head>
+       <Head>
+      {/* Page Title & Meta Description */}
+      <title>About Us | Phoolwala - Floral Decoration & Wedding Services</title>
+      <meta
+        name="description"
+        content="Learn about Phoolwala, your trusted floral decoration expert for weddings, events, car décor, bouquets, garlands, and mandir decoration in Indore, Ujjain, Dewas, Sanwer, and Mhow."
+      />
 
+      {/* SEO Keywords (Expanded) */}
+      <meta
+        name="keywords"
+        content="about Phoolwala, flower decoration, wedding décor, event decoration, car floral decoration, premium bouquets, garlands, mandir decoration, floral event styling, luxury wedding flowers, Indore event planners, Ujjain floral decor, Dewas wedding decor, Sanwer floral services, Mhow car decoration, floral centerpieces, stage decoration, reception flowers, Indian wedding flowers"
+      />
+
+      {/* Author & Robots Meta Tags */}
+      <meta name="author" content="Phoolwala" />
+      <meta name="robots" content="index, follow" />
+
+      {/* Viewport for Mobile Responsiveness */}
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      {/* Open Graph (OG) Meta Tags for Social Media */}
+      <meta property="og:title" content="About Phoolwala - Floral Decoration & Wedding Services" />
+      <meta
+        property="og:description"
+        content="Discover how Phoolwala transforms weddings, events, and special occasions with premium floral decorations in Indore, Ujjain, Dewas, Sanwer, and Mhow."
+      />
+      <meta property="og:image" content="/about.jpg" />
+      <meta property="og:url" content="https://flowers-three-gamma.vercel.app/about" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Phoolwala" />
+      <meta property="og:locale" content="en_IN" />
+
+      {/* Twitter Card Meta Tags for Social Media Sharing */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="About Phoolwala - Your Floral Decoration Partner" />
+      <meta name="twitter:description" content="Explore how Phoolwala provides elegant floral decoration for weddings, events, and special occasions in Indore, Ujjain, Dewas, Sanwer, and Mhow." />
+      <meta name="twitter:image" content="/p16.jpg" />
+      <meta name="twitter:site" content="@phoolwala" />
+
+      {/* Canonical URL */}
+      <link rel="canonical" href="https://flowers-three-gamma.vercel.app/about" />
+    </Head>
       <div className="container mx-auto px-4 py-16">
         {/* Page Title */}
         <motion.h1

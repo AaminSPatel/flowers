@@ -31,6 +31,48 @@ console.log(id);
 
   return (
     <div className="min-h-screen bg-white py-12">
+      <Head>
+      {/* Dynamic Page Title for Better SEO */}
+      <title>{service.name} - Premium Flower Decoration Services | Phoolwala</title>
+
+      {/* Meta Description (Optimized for Click-Through Rate) */}
+      <meta
+        name="description"
+        content={`Book the best ${service.name} services for weddings, home decor, car floral arrangements, and events. Experience elegant, fresh flower decorations at unbeatable prices! Serving Indore, Ujjain, Dewas, Sanwer, and Mhow.`}
+      />
+
+      {/* Expanded Keywords for Higher SEO Ranking */}
+      <meta
+        name="keywords"
+        content="flower decoration, wedding flowers, luxury floral arrangements, home floral decor, car floral arrangement, event flower services, fresh flowers, bridal bouquet, floral centerpiece, mandap decoration, stage decor, premium flower garlands, wedding entrance decor, Indian wedding flowers, engagement floral decor, Indore flower decoration, Ujjain wedding decor, Dewas event flowers, Sanwer floral services, Mhow car flower decorations"
+      />
+
+      {/* Author & Indexing Instructions */}
+      <meta name="author" content="Phoolwala" />
+      <meta name="robots" content="index, follow" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      {/* Open Graph (OG) Meta Tags for Facebook, WhatsApp, and LinkedIn */}
+      <meta property="og:title" content={`${service.name} - Premium Floral Decoration Services | Phoolwala`} />
+      <meta
+        property="og:description"
+        content={`Get stunning ${service.name} flower decorations for weddings, events, car floral arrangements, and home decor. Serving Indore, Ujjain, Dewas, Sanwer, and Mhow.`}
+      />
+      <meta property="og:image" content={service.images[0]} />
+      <meta property="og:url" content={`https://flowers-three-gamma.vercel.app/services/${id}`} />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Phoolwala" />
+      <meta property="og:locale" content="en_IN" />
+
+      {/* Twitter Card Tags for Social Media Sharing */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={`${service.name} - Floral Decoration | Phoolwala`} />
+      <meta name="twitter:description" content={`Looking for the best ${service.name} decoration services? Phoolwala offers stunning floral arrangements for weddings, events, and more.`} />
+      <meta name="twitter:image" content={service.images[0]} />
+
+      {/* Canonical URL to Prevent Duplicate Content Issues */}
+      <link rel="canonical" href={`https://flowers-three-gamma.vercel.app/services/${id}`} />
+    </Head>
       <div className="container mx-auto px-4">
         <motion.h1
           className="text-4xl font-bold mb-8 text-center"

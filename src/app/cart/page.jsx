@@ -68,20 +68,48 @@ export default function CartPage() {
     <>
       {/* Add SEO Metadata */}
       <Head>
-        <title>Order Flowers & Wedding Decor | Secure Checkout</title>
-        <meta
-          name="description"
-          content="Place your order for flowers and wedding decor with secure checkout. Fast delivery and excellent customer service."
-        />
-        <meta name="keywords" content="flowers, wedding decor, order, secure checkout" />
-        <meta property="og:title" content="Order Flowers & Wedding Decor | Secure Checkout" />
-        <meta
-          property="og:description"
-          content="Place your order for flowers and wedding decor with secure checkout. Fast delivery and excellent customer service."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://flowers-three-gamma.vercel.app/cart" />
-      </Head>
+      {/* Optimized Title for SEO */}
+      <title>Order Fresh Flowers & Wedding Decor | Secure Checkout | Phoolwala</title>
+
+      {/* Improved Meta Description for Higher Click-Through Rate (CTR) */}
+      <meta
+        name="description"
+        content="Order beautiful fresh flowers, wedding decor, and event floral arrangements with secure checkout. Fast doorstep delivery and top-rated customer service in Indore, Ujjain, Dewas, Sanwer, and Mhow."
+      />
+
+      {/* Expanded Keywords for Higher Search Ranking */}
+      <meta
+        name="keywords"
+        content="order flowers online, wedding decor, flower delivery, secure checkout, event floral arrangements, buy bouquets, garlands, mandap decoration, car floral design, same-day flower delivery, fresh flowers Indore, Ujjain flower shop, Dewas floral decor, Mhow wedding decorations, flower shop near me"
+      />
+
+      {/* Author & Indexing */}
+      <meta name="author" content="Phoolwala" />
+      <meta name="robots" content="index, follow" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      {/* Open Graph (OG) Meta Tags for Facebook, WhatsApp, LinkedIn */}
+      <meta property="og:title" content="Order Fresh Flowers & Wedding Decor | Secure Checkout | Phoolwala" />
+      <meta
+        property="og:description"
+        content="Shop for stunning fresh flowers and wedding decor with secure checkout. Get fast delivery and premium floral arrangements for your special occasions."
+      />
+      <meta property="og:image" content="/p3.jpg" />
+      <meta property="og:url" content="https://flowers-three-gamma.vercel.app/cart" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Phoolwala" />
+      <meta property="og:locale" content="en_IN" />
+
+      {/* Twitter Card for Social Media Sharing */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Order Flowers & Wedding Decor | Secure Checkout | Phoolwala" />
+      <meta name="twitter:description" content="Get premium fresh flowers and wedding decorations with safe and fast delivery. Secure payment and hassle-free checkout." />
+      <meta name="twitter:image" content="/p3.jpg" />
+      <meta name="twitter:site" content="@phoolwala" />
+
+      {/* Canonical URL to Avoid Duplicate Content Issues */}
+      <link rel="canonical" href="https://flowers-three-gamma.vercel.app/cart" />
+    </Head>
 
       <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">

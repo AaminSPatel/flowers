@@ -3,7 +3,7 @@ import "./globals.css";
 import { AppProvider } from "./components/AppContext";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { icons } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -66,7 +66,7 @@ export const metadata = {
     images: ["https://flowers-three-gamma.vercel.app/p12.jpg"], // Replace with your actual Twitter image URL
   },
   other: {
-    "google-site-verification": "your-verification-code", // Add your Google Search Console verification code
+    "google-site-verification": "Gw0kKrcBORBSuCsj5fpyVGYEYahY47h7CpJufGEWshY", // Add your Google Search Console verification code
   },
 };
 export default function RootLayout({ children }) {
@@ -77,6 +77,7 @@ export default function RootLayout({ children }) {
       > <AppProvider>
         <Header/>
         {children}
+        <Analytics />
         <Footer/>
       </AppProvider>
       </body>
