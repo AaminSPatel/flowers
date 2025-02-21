@@ -45,11 +45,11 @@ export const metadata = {
     title: "Wedding & Event Decoration Services in Indore, Ujjain, Dewas | Affordable Prices",
     description:
       "Best wedding and event decoration services in Indore, Ujjain, and Dewas. Specializing in car decoration for marriage, mandir decor, sehra, bouquet, and garlands. Get stunning decorations at minimum prices with immediate service. Book now!",
-    url: "https://yourwebsite.com", 
+    url: "https://flowers-three-gamma.vercel.app/", 
     siteName: "Flower Elegance",
     images: [
       {
-        url: "https://yourwebsite.com/og-image.jpg", // Replace with your actual OG image URL
+        url: "https://flowers-three-gamma.vercel.app/p12.jpg", // Replace with your actual OG image URL
         width: 1200,
         height: 630,
         alt: "Wedding & Event Decoration Services",
@@ -63,7 +63,7 @@ export const metadata = {
     title: "Wedding & Event Decoration Services in Indore, Ujjain, Dewas | Affordable Prices",
     description:
       "Best wedding and event decoration services in Indore, Ujjain, and Dewas. Specializing in car decoration for marriage, mandir decor, sehra, bouquet, and garlands. Get stunning decorations at minimum prices with immediate service. Book now!",
-    images: ["https://yourwebsite.com/twitter-image.jpg"], // Replace with your actual Twitter image URL
+    images: ["https://flowers-three-gamma.vercel.app/p12.jpg"], // Replace with your actual Twitter image URL
   },
   other: {
     "google-site-verification": "your-verification-code", // Add your Google Search Console verification code

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://flowers-three-gamma.vercel.app/
+
+# Sitemaps
+Sitemap: https://flowers-three-gamma.vercel.app/sitemap.xml

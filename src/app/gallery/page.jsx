@@ -55,8 +55,8 @@ export default function GalleryPage() {
           content="Find the best floral decorations for weddings, home decor, and car decoration. Learn where to buy flowers, how much they cost, and how to choose the best floral arrangements."
         />
         <meta property="og:image" content="/gallery-image.jpg" /> {/* Add a relevant image */}
-        <meta property="og:url" content="https://www.phoolwala.com/gallery" />
-        <link rel="canonical" href="https://www.phoolwala.com/gallery" />
+        <meta property="og:url" content="https://flowers-three-gamma.vercel.app/gallery" />
+        <link rel="canonical" href="https://flowers-three-gamma.vercel.app/gallery" />
         <script type="application/ld+json">
   {`
   {
@@ -64,8 +64,8 @@ export default function GalleryPage() {
     "@type": "WebPage",
     "name": "Best Flower Decorations for Weddings, Home & Car | Buy Now",
     "description": "Find the best floral decorations for weddings, home decor, and car decoration. Learn where to buy flowers, how much they cost, and how to choose the best floral arrangements.",
-    "url": "https://www.phoolwala.com/gallery",
-    "image": "https://www.phoolwala.com/gallery-image.jpg"
+    "url": "https://flowers-three-gamma.vercel.app/gallery",
+    "image": "https://flowers-three-gamma.vercel.app/p16.jpg"
   }
   `}
 </script>

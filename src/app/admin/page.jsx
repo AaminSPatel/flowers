@@ -31,29 +31,7 @@ const ordersByCategory = [
   { id: "Event Floral", value: 10 },
 ];
 
-const recentOrders = [
-  {
-    id: 1,
-    customer: "John Doe",
-    product: "Wedding Package",
-    date: "2023-07-15",
-    status: "Completed",
-  },
-  {
-    id: 2,
-    customer: "Jane Smith",
-    product: "Car Decoration",
-    date: "2023-07-14",
-    status: "In Progress",
-  },
-  {
-    id: 3,
-    customer: "Bob Johnson",
-    product: "Custom Bouquet",
-    date: "2023-07-13",
-    status: "Pending",
-  },
-];
+
 
 export default function AdminPanel() {
   const [activeTab, setActiveTab] = useState("dashboard");

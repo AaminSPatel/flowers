@@ -20,22 +20,21 @@ export default function ServicePage() {
         <title>Our Services | Premium Wedding & Floral Decorations</title>
         <meta name="description" content="Discover our exclusive wedding and floral decoration services. We offer premium quality designs to make your event special." />
         <meta name="keywords" content="wedding decorations, floral services, event decor, premium flowers, luxury wedding services" />
-        <meta name="author" content="Your Brand Name" />
+        <meta name="author" content="Flower Elegance" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://yourwebsite.com/services" />
-
-        {/* Open Graph Tags */}
+        <link rel="canonical" href="https://flowers-three-gamma.vercel.app/" />
+         {/* Open Graph Tags */}
         <meta property="og:title" content="Our Services | Premium Wedding & Floral Decorations" />
         <meta property="og:description" content="Discover our exclusive wedding and floral decoration services. We offer premium quality designs to make your event special." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourwebsite.com/services" />
-        <meta property="og:image" content="https://yourwebsite.com/images/service-banner.jpg" />
+        <meta property="og:url" content="https://flowers-three-gamma.vercel.app/services" />
+        <meta property="og:image" content="https://flowers-three-gamma.vercel.app/p3.jpg" />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Our Services | Premium Wedding & Floral Decorations" />
         <meta name="twitter:description" content="Discover our exclusive wedding and floral decoration services. We offer premium quality designs to make your event special." />
-        <meta name="twitter:image" content="https://yourwebsite.com/images/service-banner.jpg" />
+        <meta name="twitter:image" content="https://flowers-three-gamma.vercel.app/p3.jpg" />
       </Head>
 
       <div className="min-h-screen bg-white">

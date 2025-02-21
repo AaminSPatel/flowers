@@ -80,7 +80,7 @@ export default function CartPage() {
           content="Place your order for flowers and wedding decor with secure checkout. Fast delivery and excellent customer service."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourwebsite.com/cart" />
+        <meta property="og:url" content="https://flowers-three-gamma.vercel.app/cart" />
       </Head>
 
       <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">

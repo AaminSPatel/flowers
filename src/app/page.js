@@ -40,8 +40,8 @@ export default function Home() {
           content="Explore our elegant floral designs for weddings, car decorations, bouquets, garlands, and mandir decor in Indore, Ujjain, Dewas, Sanwer, and Mhao."
         />
         <meta property="og:image" content="/wed3.jpg" />
-        <meta property="og:url" content="https://aaminspatel.github.io/phoolwala/" />
-        <link rel="canonical" href="https://aaminspatel.github.io/phoolwala/" />
+        <meta property="og:url" content="https://flowers-three-gamma.vercel.app/" />
+        <link rel="canonical" href="https://flowers-three-gamma.vercel.app/" />
       </Head>
 
       {/* Hero Section */}
