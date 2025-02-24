@@ -3,6 +3,7 @@ import { useState, useEffect, useMemo } from "react";
 import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { useAppContext } from "../../components/AppContext";
+import Head from "next/head";
 
 export default function ServiceDetailsPage() {
   const { id } = useParams();
